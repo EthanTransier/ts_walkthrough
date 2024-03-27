@@ -1,0 +1,8 @@
+"use strict";
+function khgToLbs(weight) {
+    if (typeof weight === 'number')
+        return weight * 2.2;
+    else
+        return parseInt(weight) * 2.2;
+}
+//# sourceMappingURL=uniontypes.js.map
